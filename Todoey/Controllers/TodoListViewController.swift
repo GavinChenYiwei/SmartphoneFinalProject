@@ -1,9 +1,9 @@
 //
-//  ViewController.swift
+//  CategoryViewController.swift
 //  Todoey
 //
-//  Created by Angela Yu on 16/11/2017.
-//  Copyright © 2017 Angela Yu. All rights reserved.
+//  Created by Yiwei Chen on 12/01/2020.
+//  Copyright © 2020 Yiwei Chen. All rights reserved.
 //
 
 import UIKit
@@ -43,9 +43,6 @@ class TodoListViewController: UITableViewController {
         
         cell.textLabel?.text = item.title
         
-        //Ternary operator ==>
-        // value = condition ? valueIfTrue : valueIfFalse
-        
         cell.accessoryType = item.done ? .checkmark : .none
         
         return cell
@@ -54,10 +51,6 @@ class TodoListViewController: UITableViewController {
     //MARK: - TableView Delegate Methods
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-
-//        context.delete(itemArray[indexPath.row])
-//        itemArray.remove(at: indexPath.row)
         
         itemArray[indexPath.row].done = !itemArray[indexPath.row].done
 

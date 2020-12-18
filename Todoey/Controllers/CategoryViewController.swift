@@ -2,8 +2,8 @@
 //  CategoryViewController.swift
 //  Todoey
 //
-//  Created by Angela Yu on 01/12/2017.
-//  Copyright © 2017 Angela Yu. All rights reserved.
+//  Created by Yiwei Chen on 12/01/2020.
+//  Copyright © 2020 Yiwei Chen. All rights reserved.
 //
 
 import UIKit
